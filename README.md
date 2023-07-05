@@ -13,3 +13,4 @@ The projects uploaded aren't 100% faithful to the originals; I'll write down eac
     2. The music was replaced by a Nirvana album which has non of their songs
     3. The songs used are just Better Days by Lakey Inspired ([here](https://soundcloud.com/lakeyinspired/better-days)) repeated over and over (the song is uncopyrighted)
     4. I directly downloaded the icons from [here](https://fonts.google.com/icons), meaning some major changes to the CSS and JavaScript files
+    5. There's just a single album cover and I had to recreate it with paint to avoid any copyright infringement
