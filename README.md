@@ -13,6 +13,6 @@ The project consists in a music player which, besides playing the music, lets th
 * Changes done
     1. The color scheme was slightly altered
     2. The music was replaced by a Nirvana album which has non of their songs
-    3. The songs used are just Better Days by Lakey Inspired ([here](https://soundcloud.com/lakeyinspired/better-days)) repeated over and over (the song is uncopyrighted)
+    3. The song used is just Better Days by Lakey Inspired ([here](https://soundcloud.com/lakeyinspired/better-days)) repeated over and over (the song is uncopyrighted)
     4. I directly downloaded the icons from [here](https://fonts.google.com/icons), meaning some major changes to the CSS and JavaScript files
     5. There's just a single album cover and I had to recreate it with paint to avoid any copyright infringement
