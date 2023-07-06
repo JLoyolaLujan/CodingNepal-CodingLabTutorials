@@ -8,7 +8,7 @@ The projects uploaded aren't 100% faithful to the originals; I'll write down eac
 
 [here](https://www.youtube.com/watch?v=1-CvPn4AbT4&t=4548s&ab_channel=CodingNepal) you can watch the whole tutorial
 
-The project consists in a music player which, besides playing the music, let's the user select each song from a whole album through a track list. 
+The project consists in a music player which, besides playing the music, lets the user select each song from a whole album through a track list. 
 
 * Changes done
     1. The color scheme was slightly altered
