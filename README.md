@@ -25,5 +25,5 @@ The project consists in a card slider which can be used as a staff introduction 
 
 * Changes done
     1. The color scheme has been slightly altered
-    2. The images and names have been changed; each image was taken from [pixels](https://www.pexels.com/) The file "info of pictures.txt" has the links to the respective sources
+    2. The images and names have been changed; each image was taken from [pixels](https://www.pexels.com/). The file "info of pictures.txt" has the links to the respective sources
     3. I directly downloaded the icons from [here](https://fonts.google.com/icons), but this time around this meant minor changes to the CSS and JavaScript files
