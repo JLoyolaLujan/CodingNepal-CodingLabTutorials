@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background: #293447;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: lightblue;
+}
+
+.game-details {
+    color: #88C6DC;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px; /*separated from borders*/
+    display: flex;
+    justify-content: space-between; /*space between content*/
+}
+
+.play-board {
+    width: 100%;
+    height: 100%; 
+    /*the grid is created so that the snake can move in it*/
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #212837;
+}
+
+/*now we'll give this food element some color*/
+
+.play-board .food {
+    background: lightcoral;
+}
+
+.play-board .head {
+    background: lightskyblue;
+}
+
+.controls {
+    display: none;
+    justify-content: space-between;
+}
+.controls img {
+    padding: 10px 0;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*controls will show in small devices*/
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 90vmin;
+        height: 115vmin;
+    }
+
+    .game-details {
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+
+    .controls {
+        display: flex;
+    }
+
+    .controls i {
+        padding: 15px 0;
+        size: 1rem;
+    }
+}
