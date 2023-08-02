@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    /*background: grey;*/
+    z-index: 100;
+    padding: 0 20px;
+}
+
+.nav_logo {
+    font-size: 25px;
+}
+
+.nav {
+    max-width: 1100px;
+    width: 100%;
+    /*background: green;*/
+    margin: 0 auto;
+}
+
+.nav, .nav_items {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_items {
+    column-gap: 25px;
+}
+
+.nav_logo, .nav_link, .button {
+    color: lightyellow;
+}
+
+.nav_link:hover {
+    color: #d9d9d9
+}
+
+.button {
+    background: transparent;
+    border: 2px solid lightyellow;
+    padding: 6px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.85);
+}
+
+/*home*/
+
+.home {
+    position: relative; 
+    height: 100vh; 
+    width: 100%;
+    background: linear-gradient(90deg, #b042ff, #1167b1); /*here I just changed the background image for colors*/
+}
+
+.home::before {
+    content: ""; 
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-out;
+}
+
+.home.show::before {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/*form*/
+
+.form_container{
+    position: absolute;
+    max-width: 320px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2); /*it's gonna be big BUT invicible*/
+    z-index: 101;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease-out;
+}
+
+/*if "login" is pressed*/
+
+.home.show .form_container{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1); /*back to normal size!*/
+}
+
+.signup_form{
+    display: none;
+}
+
+.form_container.active .signup_form {
+    /*when the class "active" appears, the sign up form appears*/
+    display: block;
+}
+
+.form_container.active .login_form {
+    /*when the class "active" appears, the login form dissapears*/
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.form_container h2 {
+    font-size: 22px;
+    color: #0b0217;
+    text-align: center;
+}
+
+.input_box {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+}
+
+.input_box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    transition: all 0.2s ease;
+    border-bottom: 1.5px solid #aaaaaa;
+    outline: none;
+    padding: 0 30px;
+    
+}
+
+.input_box input:focus {
+    border-color: #7d2ae8;
+}
+
+.input_box img  {
+    /*padding-top: 4px;*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.envelop, .lock {
+    width: 20px;
+    height: 20px;
+    left: 0;
+    opacity: 0.7;
+}
+
+.visoff {
+    right: 0;
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
+/*forgot pass?*/
+
+.option_field {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_container a {
+    color: #7d2ae8;
+    font-size: 12px;
+}
+
+.form_container a:hover {
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    white-space: nowrap;
+    column-gap: 8px;
+}
+
+.checkbox input {
+    accent-color: #7d2ae7;
+}
+
+.checkbox label {
+    font-size: 12px;
+    user-select: none;
+    color: #0b0217;
+}
+
+/*login button*/
+
+.form_container .button {
+    background-color: #7d2ae8;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 12px;
+}
+
+/*don't have an account?*/
+
+.login_signup {
+    font-size: 12px;
+    text-align: center; 
+    margin-top: 15px;
+}
