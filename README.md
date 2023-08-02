@@ -36,4 +36,18 @@ The project consists in a Snake game, with high score that is saved in the local
 
 * Changes done
     1. I messed a bit with the colors
-    2. I directly downloaded the icons from [here](https://fonts.google.com/icons). Little to no changes in the CSS file. 
+    2. I directly downloaded the icons from [here](https://fonts.google.com/icons). Little to no changes in the CSS file
+
+### 4. Website with Login & Registration Form 
+
+[here](https://www.youtube.com/watch?v=etsPyHLON7g&ab_channel=CodingLab) you can watch the whole tutorial
+
+I'm finally back from winter vacations! Back at it again with an HTML, CSS and JS project. 
+
+The project itself consists in a simple website with a login and registration form. 
+
+* Changes done
+    1. I've messed a bit with the colors
+    2. I directly downloaded the icons from [here](https://fonts.google.com/icons). This meant some changes to the CSS and Javascript files 
+    3. To do away with the default icons in the password input, I've used [this](https://stackoverflow.com/questions/18970150/how-can-i-remove-the-eye-from-a-password-field) workaround so I could work with the icons I downloaded
+ 
