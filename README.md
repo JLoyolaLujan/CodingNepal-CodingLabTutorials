@@ -51,7 +51,3 @@ The project itself consists in a simple website with a login and registration fo
     1. I've messed a bit with the colors
     2. I directly downloaded the icons from [here](https://fonts.google.com/icons). This meant some changes to the CSS and Javascript files 
     3. To do away with the default icons in the password input, I've used [this](https://stackoverflow.com/questions/18970150/how-can-i-remove-the-eye-from-a-password-field) workaround so I could work with the icons I downloaded
- 
-=======
-    2. I directly downloaded the icons from [here](https://fonts.google.com/icons). Little to no changes in the CSS file. 
->>>>>>> 4a444a93f8027087837149f70664fdf3f23a33f9
