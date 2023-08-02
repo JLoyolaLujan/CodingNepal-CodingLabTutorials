@@ -1,6 +1,6 @@
-# CodingNepal Tutorials
+# CodingNepal & CodingLab Tutorials
 
-In this space I'll upload the projects I'm following along from the channel [CodingNepal](https://www.youtube.com/@CodingNepal)
+In this space I'll upload the projects I'm following along from the channels [CodingNepal](https://www.youtube.com/@CodingNepal) and [CodingLab](https://www.youtube.com/@CodingLabYT)
 
 The projects uploaded aren't 100% faithful to the originals; I'll write down each change done here. 
 
