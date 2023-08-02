@@ -42,7 +42,7 @@ The project consists in a Snake game, with high score that is saved in the local
 
 [here](https://www.youtube.com/watch?v=etsPyHLON7g&ab_channel=CodingLab) you can watch the whole tutorial
 
-I'm finally back from winter vacations! Back at it again with an HTML, CSS and JS project. 
+I'm finally back from winter break! Back at it again with an HTML, CSS and JS project. 
 
 The project itself consists in a simple website with a login and registration form. 
 
