@@ -36,7 +36,6 @@ The project consists in a Snake game, with high score that is saved in the local
 
 * Changes done
     1. I messed a bit with the colors
-<<<<<<< HEAD
     2. I directly downloaded the icons from [here](https://fonts.google.com/icons). Little to no changes in the CSS file
 
 ### 4. Website with Login & Registration Form 
